@@ -6,31 +6,37 @@ Random javascript utilities you might find useful.
 
 ## Features
 
--   ```js
-    "aaa".replaceAll("a", "b");
-    // => bbb
-    ```
+### `"string".replaceAll(search: string, replace: string)`
 
-    A fix for `"aaa".replace("a", "b"); // => "baa"`, which only replaced one of the specified substring.
+```js
+"aaa".replaceAll("a", "b");
+// => bbb
+```
 
--   ```js
-    executeTemplateLiteral("test ${a}", [1], ["a"]);
-    // => test 1
+A fix for `"aaa".replace("a", "b"); // => "baa"`, which only replaced one of the specified substring.
 
-    executeTemplateLiteral("test {a}", [2], ["a"], true);
-    // => test 2
-    ```
+### `executeTemplateLiteral(string: string, args: any[], argNames: string[], replace$: boolean = false)`
 
-    Executes a template literal in real time.
+```js
+executeTemplateLiteral("test ${a}", [1], ["a"]);
+// => test 1
 
--   ```js
-    checkForDuplicates({ a: [1, 1, 1, 2] });
-    // => { a: [ 1, 2 ]}
-    ```
+executeTemplateLiteral("test {a}", [2], ["a"], true);
+// => test 2
+```
 
-    Removes duplicates in arrays that are in objects.
+Executes a template literal in real time.
 
-Using it:
+### `checkForDuplicates(object: object)`
+
+```js
+checkForDuplicates({ a: [1, 1, 1, 2] });
+// => { a: [ 1, 2 ]}
+```
+
+Removes duplicates in arrays that are in objects.
+
+## Using it
 
 ```js
 // Note: replaceAll is automatically added when requiring the package

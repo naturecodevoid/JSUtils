@@ -1,0 +1,14 @@
+{
+    "name": "natures-jsutils",
+    "files": [
+        "index.js",
+        "src/"
+    ],
+    "version": "1.0.0",
+    "description": "Random javascript utilities you might find useful.",
+    "main": "index.js",
+    "repository": "https://github.com/naturecodevoid/JSUtils",
+    "author": "naturecodevoid (naturecodevoid#6253@Discord)",
+    "license": "MIT",
+    "private": true
+}

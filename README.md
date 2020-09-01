@@ -1,6 +1,5 @@
 # JSUtils
 
-[![](https://img.shields.io/github/license/naturecodevoid/JSUtils?style=flat-square)](https://github.com/naturecodevoid/JSUtils/blob/master/LICENSE)
 [![](https://img.shields.io/npm/v/JSUtils?style=flat-square)](https://www.npmjs.com/package/JSUtils)
 
 Random javascript utilities you might find useful.

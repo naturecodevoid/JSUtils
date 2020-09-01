@@ -6,8 +6,6 @@ Random javascript utilities you might find useful.
 
 ## Features
 
----
-
 -   ```js
     "aaa".replaceAll("a", "b");
     // => bbb

@@ -1,6 +1,6 @@
 # JSUtils
 
-[![](https://img.shields.io/npm/v/JSUtils?style=flat-square)](https://www.npmjs.com/package/natures-jsutils)
+[![](https://img.shields.io/npm/v/natures-jsutils?style=flat-square)](https://www.npmjs.com/package/natures-jsutils)
 
 Random javascript utilities you might find useful.
 

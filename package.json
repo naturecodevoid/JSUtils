@@ -4,7 +4,7 @@
         "index.js",
         "src/"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Random javascript utilities you might find useful.",
     "main": "index.js",
     "repository": "https://github.com/naturecodevoid/JSUtils",

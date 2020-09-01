@@ -1,3 +1,4 @@
+// https://github.com/naturecodevoid/JSUtils/blob/master/src/checkForDuplicates.js
 /**
  * Checks for duplicates in an object.
  *

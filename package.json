@@ -10,5 +10,5 @@
     "repository": "https://github.com/naturecodevoid/JSUtils",
     "author": "naturecodevoid (naturecodevoid#6253@Discord)",
     "license": "MIT",
-    "private": true
+    "private": false
 }

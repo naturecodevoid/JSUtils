@@ -1,6 +1,7 @@
 require("./replaceAll.js");
 /* !!! Requires replaceAll.js !!! */
 
+// https://github.com/naturecodevoid/JSUtils/blob/master/src/executeTemplateLiteral.js
 /**
  * Executes a template literal
  *

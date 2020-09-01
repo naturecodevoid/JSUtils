@@ -1,3 +1,4 @@
+// https://github.com/naturecodevoid/JSUtils/blob/master/src/replaceAll.js
 /**
  * Replaces text in a string.
  *

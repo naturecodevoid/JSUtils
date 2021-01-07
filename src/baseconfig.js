@@ -1,4 +1,5 @@
 const fs = require("fs");
+const deepmerge = require("deepmerge");
 
 // https://github.com/naturecodevoid/JSUtils/blob/master/src/config.js
 /**
@@ -18,16 +19,7 @@ class BaseConfig {
     constructor(path, defaults = {}) {
         this.path = path;
         this.data = fs.existsSync(this.path) ? require(this.path) : defaults;
-        // Merge defaults into config
-        // TODO: use deepmerge
-        for (const key in defaults) {
-            if (Object.hasOwnProperty.call(defaults, key)) {
-                const element = defaults[key];
-                if (!Object.hasOwnProperty.call(this.data, key)) {
-                    this.data[key] = element;
-                }
-            }
-        }
+        this.data = deepmerge(defaults, this.data);
         this.save();
     }
 

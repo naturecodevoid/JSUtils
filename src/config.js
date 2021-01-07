@@ -17,7 +17,15 @@ class Config {
      */
     constructor(path, defaults = {}) {
         this.path = path;
-        this.data = require(path) || defaults;
+        this.data = fs.existsSync(this.path) ? require(this.path) : defaults;
+        for (const key in defaults) {
+            if (Object.hasOwnProperty.call(defaults, key)) {
+                const element = defaults[key];
+                if (!Object.hasOwnProperty.call(this.data, key)) {
+                    this.data[key] = element;
+                }
+            }
+        }
         this.save();
     }
 

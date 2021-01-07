@@ -8,7 +8,9 @@
     "description": "Random javascript utilities you might find useful.",
     "main": "index.js",
     "repository": "https://github.com/naturecodevoid/JSUtils",
-    "author": "naturecodevoid (naturecodevoid#6253@Discord)",
+    "author": "naturecodevoid (https://naturecodevoid.dev)",
     "license": "MIT",
-    "private": false
+    "dependencies": {
+        "deepmerge": "^4.2.2"
+    }
 }

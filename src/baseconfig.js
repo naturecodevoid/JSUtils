@@ -1,7 +1,7 @@
 const fs = require("fs");
 const deepmerge = require("deepmerge");
 
-// https://github.com/naturecodevoid/JSUtils/blob/master/src/config.js
+// https://github.com/naturecodevoid/JSUtils/blob/master/src/baseconfig.js
 /**
  * Helper class for keeping node.js JSON configs.
  *
